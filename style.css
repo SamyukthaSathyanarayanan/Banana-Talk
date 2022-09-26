@@ -1,0 +1,53 @@
+:root{
+  --primary-color: rgb(226, 182, 36);
+  --blue-color: rgb(56, 99, 99);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#default-change{
+  padding: 0px;
+}
+
+#head-text{
+  background-color: var(--primary-color);
+}
+
+
+#output, #txt-input{
+  width: 100%;
+  height: 28vh;
+  border: 1px solid black;
+}
+
+
+#btn-translate{
+  background-color: var(--primary-color);
+  font-size: large;
+  cursor: pointer;
+}
+
+#btn-translate:hover {
+	background-color: var(--blue-color);
+  color: white;
+	
+}
+
+.minion-pic{
+  height: 440px;
+  width: 250px;
+}
+
+.page-footer{
+  background-color: var(--primary-color);
+}
+
+.footer-text{
+ font-size: 18px; 
+ max-width: 60%;
+}
+
+
